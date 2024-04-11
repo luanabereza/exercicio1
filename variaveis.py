@@ -9,8 +9,8 @@ in the console.
 
 After confirming that it works, comment it out.
 '''
-
-print("hello me")
+print("space project") #23pm
+#print("hello me")
 
 '''
 2)
@@ -18,7 +18,11 @@ Using both the (+) and the (*) operators,
 multiply and add any combination of numbers
 together so that you get the number 10.
 '''
-
+a = 2
+b = 4
+c = 2
+resul = 2 * 4 + 2
+print (result)
 # print()
 
 '''
@@ -37,9 +41,12 @@ below into print()!
 Add two strings together so that you
 are printing your full name!
 '''
-
-# print()
-
+a = "luana "
+b = "bereza "
+result = a + b
+print (result)
+# print(result)
+print ("luana" + "bereza")
 
 '''
 5)
@@ -152,8 +159,21 @@ Practice with everything you've learned so far!
 
 Come up with 10 expressions that use what
 you've learned so far.
-    - Use the data types: string, int, float, boolean, null.
-    - Use the following operators: (+) (-) (*) (/).
+    - Use the data types: string, int, float, boolean, None.
+- Use the following operators: (+) (-) (*) (/).
     - Use the operators: (=) (+=) (-=) (*=)(++) (--).
     - Use the operators: (>) (<) (>=) (<=) (== vs ===) (!=).
 '''
+''' eu consegui fazer mas tenho duvidas, 1 achei que tinha 
+apagado e reiniciado, mas foi salvo, vou te perguntar sobre isso
+sobre o not nas booleans tambem vou te perguntar'''
+
+auxiliar = None 
+y = 2 
+z = 5 
+auxiliar = y
+y = z
+z = auxiliar 
+print(z,y)
+
+
