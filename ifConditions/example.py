@@ -1,12 +1,32 @@
 '''
 Verificação de Maior Número:
-Peça ao usuário para inserir dois números e escreva um programa para verificar qual é o maior número e imprimir na tela.
+Peça ao usuário para inserir dois números e 
+escreva um programa para verificar qual é o 
+maior número e imprimir na tela.
 '''
+
+#solicita o imput dos usuarios
+number1 = input("insert the first number:")
+number2 = input("insert the second number:")
+
+#converte a entrada para numeros
+number1 = float (number1)
+number2 = float (number2)
+
+#compara os numeros e imprime o maior
+if number1 > number2:
+    print( number1, "is grater than", number2)
+elif number2 > number1:
+    print( number2, "is grater than", number1)
+else:
+    print("the number are identical")
+
 
 
 '''
 Classificação de Idade:
-Solicite ao usuário que insira sua idade e, em seguida, 
+Solicite ao usuário que insira sua idade e,
+ em seguida, 
 escreva um programa para classificar a idade e<
 
 
@@ -14,22 +34,36 @@ como criança, adolescente, adulto, etc.
 '''
 idade = int(input("Digite sua idade: "))
 
-if idade < 13:
+if idade < 0:
+    print("ghost")
+elif idade >= 0 and idade <= 13:
     print("Criança")
-elif idade < 20:
+elif idade > 13 and idade <= 20:
     print("Adolescente")
 elif idade < 65:
     print("Adulto")
-else:
-    print("Idoso")
+elif idade >= 65 and idade < 100:
+    print("idoso")
+elif idade == 100:
+    print("ya esta")
+else: 
+    print("matusalem")
 
 
 
 '''
 Verificação de Número Positivo ou Negativo:
-Peça ao usuário para inserir um número e escreva um programa para verificar se o número é positivo, negativo ou zero.
+Peça ao usuário para inserir um número
+ e escreva um programa para verificar
+ se o número é positivo, negativo ou zero.
 '''
-
+years = int(input("qual a sua idade?"))
+if years > 0:
+    print("positivo")
+elif years < 0:
+    print("negativo")
+else:
+    print("zero")
 '''
 Verificação de Número Primo:
 Peça ao usuário para inserir um número e escreva um programa para verificar se o número é primo ou não.
