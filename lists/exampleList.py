@@ -19,3 +19,8 @@ colors[1] = "dourado"
 
 print(colors)
 
+# Crie uma lista de strings contendo os nomes de algumas cores e imprima a terceira cor da lista.
+# Adicione uma nova cor à lista que você criou no exercício anterior e, em seguida, imprima a lista atualizada.
+# Crie uma lista de números inteiros e calcule a soma de todos os elementos da lista.
+# Crie uma lista de frutas e substitua a terceira fruta por "Banana".
+# Dada a lista de números: [5, 10, 15, 20, 25], multiplique cada número por 2 e imprima a lista resultante.

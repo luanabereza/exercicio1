@@ -67,6 +67,26 @@ else:
 '''
 Verificação de Número Primo:
 Peça ao usuário para inserir um número e escreva um programa para verificar se o número é primo ou não.
+
+
+Claro, aqui está um algoritmo passo a passo para encontrar números primos sem código:
+
+1. **Escolha um número**: Comece com um número natural maior que 1, pois os números primos começam a partir de 2.
+
+2. **Verifique se é divisível**: Verifique se o número escolhido é divisível por qualquer número natural entre 2 e a raiz quadrada do próprio número. Se for divisível por algum desses números, então não é primo.
+
+3. **Itere para o próximo número**: Se o número passado no passo 2 for divisível por algum número entre 2 e a raiz quadrada do próprio número, passe para o próximo número e repita o passo 2.
+
+4. **Repita até encontrar um primo**: Continue repetindo os passos 2 e 3 até encontrar um número que não seja divisível por nenhum outro número além de 1 e ele mesmo. Esse número é um número primo.
+
+Por exemplo, para encontrar o próximo número primo após 2:
+- Começamos com 3.
+- Verificamos se é divisível por 2. Não é.
+- Avançamos para 4 (pois 3 é ímpar e o próximo número ímpar é 5).
+- Verificamos se 5 é divisível por 2 ou 3. Não é.
+- Assim, 5 é um número primo.
+
+Esse é um método básico para encontrar números primos sem utilizar código.
 '''
 '''
 Calculadora Simples:
